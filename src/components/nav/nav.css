@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav span {
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+nav :first-child {
+  color: red;
+}
+
+nav :nth-child(2) {
+  color: blue;
+}
+
+nav :nth-child(3) {
+  color: #bbbb0e;
+}
+
+nav :nth-child(4) {
+  color: pink;
+}
+/*# sourceMappingURL=nav.css.map */

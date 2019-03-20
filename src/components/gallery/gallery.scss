@@ -1,0 +1,115 @@
+.gallery{
+    display: flex;
+
+.component{
+    height: 100%;
+    width:200px;
+    margin-top:50px;
+    margin-left:50px;
+    background-color: white;
+    flex-grow: 1;
+    span{
+        display:block;
+        padding-bottom:10px;
+        padding-left:10px;
+        border-bottom:2px solid black;
+        font-size:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+        cursor: pointer;
+        color:skyblue;
+        &:hover{
+            color:white;
+            background-color: skyblue;
+        }
+    }
+   
+       :nth-child(2){
+        color:red;
+        font-size:15px;
+        display:none;
+        &:hover{
+            color:black;
+            background-color: red;
+        }
+       }
+       :nth-child(3){
+        color:red;
+        font-size:15px;
+        display:none;
+        &:hover{
+            color:black;
+            background-color: red;
+        }
+       }
+       :nth-child(5){
+        color:red;
+        font-size:15px;
+        display:none;
+        &:hover{
+            color:black;
+            background-color: red;
+        }
+       }
+       :nth-child(6){
+        color:red;
+        font-size:15px;
+        display:none;
+        &:hover{
+            color:black;
+            background-color: red;
+        }
+       }
+       :nth-child(8){
+        color:red;
+        font-size:15px;
+        display:none;
+        &:hover{
+            color:black;
+            background-color: red;
+        }
+       }
+       :nth-child(9){
+        color:red;
+        font-size:15px;
+        display:none;
+        &:hover{
+            color:black;
+            background-color: red;
+        }
+       }
+       :nth-child(11){
+        color:red;
+        font-size:15px;
+        display:none;
+        &:hover{
+            color:black;
+            background-color: red;
+        }
+       }
+       :nth-child(12){
+        color:red;
+        font-size:15px;
+        display:none;
+        &:hover{
+            color:black;
+            background-color: red;
+        }
+       }
+   
+}
+.img-comp{
+    //background-color: white;
+    height: 400px;
+    width:200px;
+    margin-top:50px;
+    margin-right:50px;
+    margin-left:50px;
+    flex-grow: 2;
+    img{
+        width:100%;
+        height: 100%;
+        display: none;
+    }
+}
+}

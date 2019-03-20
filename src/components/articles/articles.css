@@ -1,0 +1,28 @@
+.articles {
+  margin: 50px 50px;
+  width: 95%;
+  height: 100%;
+}
+
+.articles div {
+  width: 90%;
+  height: 300px;
+  margin-bottom: 150px;
+}
+
+.articles div img {
+  height: 100%;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.articles div p {
+  color: white;
+}
+@media screen and (max-width:576px){
+    .articles div img{
+    height: 60%;
+  }
+}
+/*# sourceMappingURL=articles.css.map */

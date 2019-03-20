@@ -4,8 +4,11 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.4",
+    "react-countup": "^4.1.1",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-router-dom": "^4.4.0",
+    "react-scripts": "2.1.8",
+    "react-slideshow-image": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",

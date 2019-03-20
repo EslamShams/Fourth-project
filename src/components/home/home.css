@@ -1,0 +1,97 @@
+.head-Home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.head-Home .empty-box {
+  background-color: #747d8c;
+  height: 400px;
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 50px;
+  border: 5px solid white;
+  -webkit-box-shadow: 2px 2px 3px skyblue;
+          box-shadow: 2px 2px 3px skyblue;
+}
+
+.head-Home .empty-box p {
+  text-align: center;
+  padding-top: 200px;
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 3px skyblue;
+}
+
+.head-Home .Head {
+  margin-right: 300px;
+}
+
+.head-Home .Head h1 {
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+  text-shadow: 2px 2px 5px skyblue;
+  font-size: 70px;
+}
+
+.state {
+  margin-left: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.state div h1 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-left: 40px;
+}
+
+.state div h2 {
+  color: white;
+  font-size: 50px;
+}
+
+.state div h3 {
+  color: white;
+}
+
+.state :nth-child(3) {
+  margin-right: 50px;
+}
+
+.state :nth-child(3) h1 {
+  padding-left: 25px;
+}
+
+.state :nth-child(2) h3 {
+  padding-left: 20px;
+}
+@media screen and (max-width:576px){
+    .head-Home .empty-box {
+    margin-left:10px;
+    height: 300px;
+  }
+  .head-Home .empty-box p{
+    padding-top:100px;
+  }
+  .head-Home .Head h1 {
+    font-size:40px;
+    margin-left:40px;
+  }
+  .state{
+    margin-left:20px;
+  }
+
+}
+
+
+/*# sourceMappingURL=home.css.map */

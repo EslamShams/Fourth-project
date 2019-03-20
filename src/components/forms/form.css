@@ -1,0 +1,122 @@
+.forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.forms .moudel {
+  height: 100%;
+  width: 200px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: white;
+  -webkit-box-flex: 0.5;
+      -ms-flex-positive: 0.5;
+          flex-grow: 0.5;
+}
+
+.forms .moudel span {
+  display: block;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-bottom: 2px solid black;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  color: skyblue;
+}
+
+.forms .moudel span:hover {
+  color: white;
+  background-color: skyblue;
+}
+
+.forms .forms-comp {
+  height: 100%;
+  width: 0;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  border: 1px solid black;
+}
+
+.forms .forms-comp h1 {
+  padding-left: 200px;
+  color: white;
+}
+
+.forms .forms-comp :nth-child(2) {
+  padding-left: 280px;
+  color: white;
+}
+
+.forms .forms-comp form {
+  display: none;
+  margin-left: 200px;
+}
+
+.forms .forms-comp form ::-webkit-input-placeholder {
+  margin-left: 0;
+  color: #1197cc;
+}
+
+.forms .forms-comp form input {
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+  border-radius: 10px 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.forms .forms-comp form label {
+  display: block;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+.forms .forms-comp form :nth-child(2) {
+  display: none;
+}
+
+.forms .forms-comp form button {
+  color: white;
+  background-color: #0a79a5;
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 10px 10px;
+  margin-left: 20px;
+  border: 1px solid #0a79a5;
+  cursor: pointer;
+}
+@media screen and (max-width:576px){
+  
+  .forms{
+    display: flex;
+    flex-direction: column;
+  }
+  .forms .forms-comp{
+    margin-left:-150px;
+  }
+
+  
+  .forms .forms-comp h1 {
+    padding-left: 250px;
+    
+  }
+  
+  .forms .forms-comp :nth-child(2) {
+    padding-left: 250px;
+    margin-top:-20px;
+  }
+  .forms .forms-comp form input{
+    width:150px;
+  }
+
+}
+/*# sourceMappingURL=form.css.map */

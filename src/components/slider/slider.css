@@ -1,0 +1,16 @@
+.each-fade {
+  margin: 50px auto;
+}
+
+.each-fade .image-container img {
+  width: 70%;
+  height: 350px;
+  margin-left: 200px;
+}
+@media screen and (max-width:576px){ 
+   .each-fade .image-container img{
+    margin-left:60px;
+  }
+
+}
+/*# sourceMappingURL=slider.css.map */

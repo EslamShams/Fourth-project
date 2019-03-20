@@ -1,0 +1,94 @@
+
+.forms{
+    display: flex;
+
+  .moudel{
+    height: 100%;
+    width:200px;
+    margin-top:50px;
+    margin-left:50px;
+    background-color: white;
+    flex-grow: 0.5;
+    span{
+        display:block;
+        padding-bottom:10px;
+        padding-left:10px;
+        border-bottom:2px solid black;
+        font-size:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+        cursor: pointer;
+        color:skyblue;
+        &:hover{
+            color:white;
+            background-color: skyblue;
+        }
+      }
+    }
+      .forms-comp{
+        height: 100%;
+        width:0;
+        margin-top:50px;
+        margin-right:50px;
+        margin-left:50px;
+        flex-grow: 2;
+        border:1px solid black;
+        h1{
+          padding-left:200px;
+          color:white;
+        }
+        :nth-child(2){
+          padding-left:280px;
+          color:white;
+        }
+        form{
+            display: none;
+            margin-left:200px;
+            ::-webkit-input-placeholder{
+              margin-left:0;
+              color:rgb(17, 151, 204);
+            }
+            input{
+              width: 200px;
+              height: 30px;
+              margin-left: 20px;
+              border-radius: 10px 10px;
+              margin-top:20px;
+              margin-bottom:20px;
+              
+            }
+            label{
+              display: block;
+              margin-left: 20px;
+              margin-top:10px;
+              color:white;
+            }
+            :nth-child(2){
+              display: none;
+
+            }
+            button{
+              color:white;
+              background-color: rgb(10, 121, 165);
+              font-size: 20px;
+              padding:10px 10px;
+              border-radius: 10px 10px;
+              margin-left:20px;
+              border: 1px solid rgb(10, 121, 165);
+              cursor: pointer;
+            }
+            
+            
+        }
+        
+           
+
+        }
+        
+      
+  
+    
+  
+}
+
+   

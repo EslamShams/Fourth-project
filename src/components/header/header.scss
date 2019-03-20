@@ -1,0 +1,32 @@
+header{
+    
+    div{
+        text-align: right;
+        background-color: white;
+        border-top:1px solid black;
+        border-bottom:1px solid black;
+        a{
+            text-decoration: none;
+            color:black;
+            font-size:30px;
+            margin-left:35px;
+            margin-right:35px;
+            font-weight: bold;
+            &:hover{
+                color:red;
+                background-color: black;
+                text-decoration: none;
+            }
+            &:active{
+                color:blue;
+                background-color: black;
+
+            }
+        }
+    }
+}
+@media screen and (min-width:576px),(max-width:767px){
+    header div a{
+        font-size:20px;
+    }
+}
