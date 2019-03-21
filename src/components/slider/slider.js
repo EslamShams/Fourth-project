@@ -18,19 +18,19 @@ class SlideShow extends Component {
     <Fade {...fadeProperties}>
       <div className="each-fade">
         <div className="image-container">
-          <img src={Home1} />
+          <img src={Home1} alt="home1" />
         </div>
         <h2>First Slide</h2>
       </div>
       <div className="each-fade">
         <div className="image-container">
-          <img src={Home2} />
+          <img src={Home2} alt="home2" />
         </div>
         <h2>Second Slide</h2>
       </div>
       <div className="each-fade">
         <div className="image-container">
-          <img src={Home3} />
+          <img src={Home3} alt="home3" />
         </div>
         <h2>Third Slide</h2>
       </div>

@@ -16,7 +16,7 @@ class Form extends Component{
             }
         
     }
-    disForm2=()=>{
+   disForm2=()=>{
         if(firstForm[1].style.display="none"){
             firstForm[1].style.display="block";
             firstForm[0].style.display="none";

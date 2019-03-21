@@ -23,7 +23,7 @@ class Home extends Component {
    
       <div className="state">
       <div>
-      <h1><i class="fas fa-hotel"></i></h1>
+      <h1><i className="fas fa-hotel"></i></h1>
        <h2> <CountUp
     start={0}
     end={1500}
@@ -35,7 +35,7 @@ class Home extends Component {
   <h3>Companies</h3>
   </div>
   <div>
-      <h1><i class="fas fa-male"></i></h1>
+      <h1><i className="fas fa-male"></i></h1>
        <h2> <CountUp
     start={0}
     end={3000}
@@ -48,7 +48,7 @@ class Home extends Component {
   
   </div>
   <div>
-      <h1><i class="fas fa-user"></i></h1>
+      <h1><i className="fas fa-user"></i></h1>
        <h2> <CountUp
     start={0}
     end={500}
