@@ -6,30 +6,25 @@ let firstForm = document.getElementsByTagName('form'),
 
 class Form extends Component{
     disForm=()=>{
-            if(firstForm[0].style.display="none"){
-                firstForm[0].style.display="block";
-                firstForm[1].style.display="none";
-                head[0].style.display="none";
-                head[1].style.display="none";
-                
-
-            }
+            
+               firstForm[0].style.display="block";
+               firstForm[1].style.display="none";
+               head[0].style.display="none";
+               head[1].style.display="none";  
         
     }
    disForm2=()=>{
-        if(firstForm[1].style.display="none"){
+        
             firstForm[1].style.display="block";
             firstForm[0].style.display="none";
             head[0].style.display="none";
             head[1].style.display="none";
-
-        }
     
 }
     render(){
     return(
         <div className="forms">
-        <div class="moudel">
+        <div className="moudel">
         <span onClick={this.disForm}>Full Form</span>
         <span onClick={this.disForm2}>Log In Form</span>
 
@@ -73,5 +68,6 @@ class Form extends Component{
         </div>
     )
     }
-};
+   
+}
 export default Form;

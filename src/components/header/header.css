@@ -20,10 +20,6 @@ header div a:hover {
   text-decoration: none;
 }
 
-header div a:active {
-  color: blue;
-  background-color: black;
-}
 @media screen and (max-width:576px){
   header div a{
       font-size:20px;

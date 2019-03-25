@@ -17,19 +17,20 @@ let mySpans = document.getElementsByTagName('span'),
 class Gallery extends Component {
     
 natureComp = ()=>{
-      if(mySpans[5].style.display ="none") {
+      
             mySpans[5].style.display ="block";
             mySpans[6].style.display ="block";   
-            }      
+            
+                
 }
 natureComp2=()=>{
-    if(mySpans[5].style.display ="block") {
+    
         mySpans[5].style.display ="none";
         mySpans[6].style.display ="none";   
-        }
+        
 }
 sky=()=>{
-      if(myImgBox[0].style.display="none"){
+      
         myImgBox[0].style.display="block";
         myImgBox[1].style.display="none";
         myImgBox[2].style.display="none";
@@ -39,12 +40,12 @@ sky=()=>{
         myImgBox[6].style.display="none";
         myImgBox[7].style.display="none";
 
-      }
+      
 
     
 }
 darkRoad=()=>{
-    if(myImgBox[1].style.display="none"){
+    
         myImgBox[1].style.display="block";
         myImgBox[0].style.display="none";
         myImgBox[2].style.display="none";
@@ -54,25 +55,25 @@ darkRoad=()=>{
         myImgBox[6].style.display="none";
         myImgBox[7].style.display="none";
 
-      }
+      
 }
          
 flowerComp = ()=>{
-    if(mySpans[8].style.display ="none"){
+    
         mySpans[8].style.display ="block";
         mySpans[9].style.display ="block";
-    }
+    
             
         }
 flowerComp2 = ()=>{
-    if(mySpans[8].style.display ="block"){
+    
         mySpans[8].style.display ="none";
         mySpans[9].style.display ="none";
-            }
+            
                     
                 }        
 flo1=()=>{
-    if(myImgBox[2].style.display="none"){
+    
         myImgBox[2].style.display="block";
         myImgBox[1].style.display="none";
         myImgBox[0].style.display="none";
@@ -82,10 +83,10 @@ flo1=()=>{
         myImgBox[6].style.display="none";
         myImgBox[7].style.display="none";
 
-      }
+      
 }
 flo2=()=>{
-    if(myImgBox[3].style.display="none"){
+    
         myImgBox[3].style.display="block";
         myImgBox[1].style.display="none";
         myImgBox[0].style.display="none";
@@ -95,23 +96,23 @@ flo2=()=>{
         myImgBox[6].style.display="none";
         myImgBox[7].style.display="none";
 
-      }
+      
 }         
             
 coolComp = () =>{
-    if(mySpans[11].style.display ="none"){
+    
         mySpans[11].style.display ="block";
         mySpans[12].style.display ="block";
-    }
+    
         }
 coolComp2 = () =>{
-   if(mySpans[11].style.display ="block"){
+   
       mySpans[11].style.display ="none";
       mySpans[12].style.display ="none";
-            }
+            
                 }        
 col1=()=>{
-    if(myImgBox[4].style.display="none"){
+    
         myImgBox[4].style.display="block";
         myImgBox[1].style.display="none";
         myImgBox[0].style.display="none";
@@ -121,10 +122,10 @@ col1=()=>{
         myImgBox[6].style.display="none";
         myImgBox[7].style.display="none";
         
-              }
+              
         }         
 col2=()=>{
-   if(myImgBox[5].style.display="none"){
+   
          myImgBox[5].style.display="block";
          myImgBox[1].style.display="none";
          myImgBox[0].style.display="none";
@@ -134,23 +135,22 @@ col2=()=>{
         myImgBox[6].style.display="none";
         myImgBox[7].style.display="none";
                 
-                      }
+                      
                 }         
                        
 cuteComp = () =>{
-    if(mySpans[14].style.display ="none"){
         mySpans[14].style.display ="block";
         mySpans[15].style.display ="block";
-    }
+    
         }
 cuteComp2 = () =>{
-     if(mySpans[14].style.display ="block"){
+     
          mySpans[14].style.display ="none";
          mySpans[15].style.display ="none";
-            }
+            
                 }        
 cut1=()=>{
-     if(myImgBox[6].style.display="none"){
+     
          myImgBox[6].style.display="block";
          myImgBox[1].style.display="none";
          myImgBox[0].style.display="none";
@@ -160,10 +160,10 @@ cut1=()=>{
          myImgBox[5].style.display="none";
          myImgBox[7].style.display="none";
                          
-      }
+      
              }    
 cut2=()=>{
-     if(myImgBox[7].style.display="none"){
+     
          myImgBox[7].style.display="block";
          myImgBox[1].style.display="none";
          myImgBox[0].style.display="none";
@@ -173,7 +173,7 @@ cut2=()=>{
          myImgBox[5].style.display="none";
          myImgBox[6].style.display="none";
                                     
-                 }
+                 
                         }    
              
 
