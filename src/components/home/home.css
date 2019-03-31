@@ -93,6 +93,15 @@
   .state div h2 {
     font-size:30px;
   }
+  .state div h1 {
+    padding-left:20px
+  }
+  .state :nth-child(2) h3 {
+  padding-left: 0;
+     }
+     .state :nth-child(3) h3 {
+  padding-right: 20px;
+}
 
 }
 
