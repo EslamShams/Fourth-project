@@ -35,3 +35,9 @@ footer :nth-child(3) i{
 footer :nth-child(2) i{
     color:rgb(11, 11, 170);
 }
+
+@media screen and (max-width:576px){
+    footer{
+        text-align:left;
+    }
+}
