@@ -203,8 +203,8 @@ cut2=()=>{
                
                 <span onClick={this.cuteComp} onDoubleClick={this.cuteComp2}>Cute &#x02207;</span>
                 
-                <span onClick={this.cut1}>Cate</span>
-                <span onClick={this.cut2}>Two Cute Cates</span>
+                <span onClick={this.cut1}>Cat</span>
+                <span onClick={this.cut2}>cute cat and dog</span>
                 </div>
                 
                 
