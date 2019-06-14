@@ -19,9 +19,9 @@ class Gallery extends Component {
                 IsToggle : false
         }
 toggle=()=>{
-        let {IsToggle} = this.state;
+        let {IsToggled} = this.state;
         this.setState({ 
-                IsToggle :  !IsToggle
+                IsToggled :  !IsToggled
         })
 }        
     
@@ -196,25 +196,25 @@ cut2=()=>{
         return(
              <div className="gallery">
                 <div className="component">
-                <span onClick={this.natureComp} onDoubleClick={this.natureComp2}>Nature {IsToggle ? '&#9662;' :'&#9652;'}</span>
+                <span onClick={this.natureComp} onDoubleClick={this.natureComp2}>Nature {IsToggled ? '&#9662;' :'&#9652;'}</span>
                 <span onClick={this.sky}>Sky</span>
                 <span onClick={this.darkRoad}>Dark Road</span>
                 
                
-                <span onClick={this.flowerComp} onDoubleClick={this.flowerComp2}>Flower {IsToggle ? '&#9662;' :'&#9652;'}</span>
+                <span onClick={this.flowerComp} onDoubleClick={this.flowerComp2}>Flower {IsToggled ? '&#9662;' :'&#9652;'}</span>
                 
                 <span onClick={this.flo1}>Zoom In Single Flower</span>
                 <span onClick={this.flo2}>Mixed Color Flowers</span>
                 
                 
-                <span onClick={this.coolComp} onDoubleClick={this.coolComp2}>Cool {IsToggle ? '&#9662;' :'&#9652;'}</span>
+                <span onClick={this.coolComp} onDoubleClick={this.coolComp2}>Cool {IsToggled ? '&#9662;' :'&#9652;'}</span>
                 
                 <span onClick={this.col1}>ColorFull Wall</span>
                 <span onClick={this.col2}>ColorFull Circle</span>
                 
                 
                
-                <span onClick={this.cuteComp} onDoubleClick={this.cuteComp2}>Cute {IsToggle ? '&#9662;' :'&#9652;'}</span>
+                <span onClick={this.cuteComp} onDoubleClick={this.cuteComp2}>Cute {IsToggled ? '&#9662;' :'&#9652;'}</span>
                 
                 <span onClick={this.cut1}>Cat</span>
                 <span onClick={this.cut2}>cute cat and dog</span>
