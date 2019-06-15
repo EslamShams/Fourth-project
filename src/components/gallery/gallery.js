@@ -20,7 +20,7 @@ class Gallery extends Component {
 
         }
  Toggle=()=>{
-        let {IsToggle} = this.state.IsToggle; 
+        let {IsToggle} = this.state; 
         this.setState({
                 IsToggle : !IsToggle
         })
@@ -29,7 +29,7 @@ class Gallery extends Component {
               
     
 natureComp = ()=>{
-        let {IsToggle} = this.state.IsToggle;
+        let {IsToggle} = this.state;
          if(IsToggle) {
                 mySpans[5].style.display ="none";
                 mySpans[6].style.display ="none";
@@ -77,7 +77,7 @@ darkRoad=()=>{
          
 flowerComp = ()=>{
     
-        let {IsToggle} = this.state.IsToggle;
+        let {IsToggle} = this.state;
         if(IsToggle) {
                mySpans[8].style.display ="none";
                mySpans[9].style.display ="none";
@@ -120,7 +120,7 @@ flo2=()=>{
             
 coolComp = () =>{
     
-        let {IsToggle} = this.state.IsToggle;
+        let {IsToggle} = this.state;
         if(IsToggle) {
                mySpans[11].style.display ="none";
                mySpans[12].style.display ="none";
@@ -163,7 +163,7 @@ col2=()=>{
                 }         
                        
 cuteComp = () =>{
-        let {IsToggle} = this.state.IsToggle;
+        let {IsToggle} = this.state;
         if(IsToggle) {
                mySpans[14].style.display ="none";
                mySpans[15].style.display ="none";
