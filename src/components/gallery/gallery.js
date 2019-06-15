@@ -192,6 +192,7 @@ cut2=()=>{
 
 
     render(){
+            let {IsToggled} = this.state;
        
         return(
              <div className="gallery">
