@@ -14,22 +14,34 @@ import cute2 from './krista-mangulsone-53122-unsplash.jpg';
 let mySpans = document.getElementsByTagName('span'),
     myImgBox = document.getElementsByTagName('img');
 
-class Gallery extends Component {       
+class Gallery extends Component {
+        state={
+                IsToggle : false
+        }
+IsToggle=()=>{
+        let {IsToggle} = this.state;
+        this.setState({
+                IsToggle : !IsToggle
+        })
+}               
     
 natureComp = ()=>{
-      
-            mySpans[5].style.display ="block";
-            mySpans[6].style.display ="block"; 
+        let {IsToggle} = this.state;
+         if(IsToggle) {
+                mySpans[5].style.display ="none";
+                mySpans[6].style.display ="none"; 
+                this.IsToggle();
+         }
+         else{
+                mySpans[5].style.display ="block";
+                mySpans[6].style.display ="block"; 
+                this.IsToggle();
+         }
               
-            
+
                 
 }
-natureComp2=()=>{
-    
-        mySpans[5].style.display ="none";
-        mySpans[6].style.display ="none";   
-        
-}
+
 sky=()=>{
       
         myImgBox[0].style.display="block";
@@ -61,19 +73,19 @@ darkRoad=()=>{
          
 flowerComp = ()=>{
     
-        mySpans[8].style.display ="block";
-        mySpans[9].style.display ="block";
-        
-    
-            
+        let {IsToggle} = this.state;
+        if(IsToggle) {
+               mySpans[8].style.display ="none";
+               mySpans[9].style.display ="none"; 
+               this.IsToggle();
         }
-flowerComp2 = ()=>{
-    
-        mySpans[8].style.display ="none";
-        mySpans[9].style.display ="none";
+        else{
+               mySpans[8].style.display ="block";
+               mySpans[9].style.display ="block"; 
+               this.IsToggle();
+        }
             
-                    
-                }        
+        }      
 flo1=()=>{
     
         myImgBox[2].style.display="block";
@@ -103,18 +115,20 @@ flo2=()=>{
             
 coolComp = () =>{
     
-        mySpans[11].style.display ="block";
-        mySpans[12].style.display ="block";
-        
-        
+        let {IsToggle} = this.state;
+        if(IsToggle) {
+               mySpans[11].style.display ="none";
+               mySpans[12].style.display ="none"; 
+               this.IsToggle();
+        }
+        else{
+               mySpans[11].style.display ="block";
+               mySpans[12].style.display ="block"; 
+               this.IsToggle();
+        }
     
         }
-coolComp2 = () =>{
-   
-      mySpans[11].style.display ="none";
-      mySpans[12].style.display ="none";
-            
-                }        
+       
 col1=()=>{
     
         myImgBox[4].style.display="block";
@@ -143,17 +157,19 @@ col2=()=>{
                 }         
                        
 cuteComp = () =>{
-        mySpans[14].style.display ="block";
-        mySpans[15].style.display ="block";
-        
-    
+        let {IsToggle} = this.state;
+        if(IsToggle) {
+               mySpans[14].style.display ="none";
+               mySpans[15].style.display ="none"; 
+               this.IsToggle();
         }
-cuteComp2 = () =>{
-     
-         mySpans[14].style.display ="none";
-         mySpans[15].style.display ="none";
-            
-                }        
+        else{
+               mySpans[14].style.display ="block";
+               mySpans[15].style.display ="block"; 
+               this.IsToggle();
+        }  
+    
+        }      
 cut1=()=>{
      
          myImgBox[6].style.display="block";
@@ -184,30 +200,30 @@ cut2=()=>{
 
 
     render(){
-        
+        let {IsToggle} = this.state;
        
         return(
              <div className="gallery">
                 <div className="component">
-                <span onClick={this.natureComp} onDoubleClick={this.natureComp2}>Nature &#10843; </span>
+                <span onClick={this.natureComp}>Nature {IsToggle ? '&#10843;' : '&#10842;'}</span>
                 <span onClick={this.sky}>Sky</span>
                 <span onClick={this.darkRoad}>Dark Road</span>
                 
                
-                <span onClick={this.flowerComp} onDoubleClick={this.flowerComp2}>Flower &#10843; </span>
+                <span onClick={this.flowerComp}>Flower {IsToggle ? '&#10843;' : '&#10842;'}  </span>
                 
                 <span onClick={this.flo1}>Zoom In Single Flower</span>
                 <span onClick={this.flo2}>Mixed Color Flowers</span>
                 
                 
-                <span onClick={this.coolComp} onDoubleClick={this.coolComp2}>Cool &#10843; </span>
+                <span onClick={this.coolComp}>Cool {IsToggle ? '&#10843;' : '&#10842;'}  </span>
                 
                 <span onClick={this.col1}>ColorFull Wall</span>
                 <span onClick={this.col2}>ColorFull Circle</span>
                 
                 
                
-                <span onClick={this.cuteComp} onDoubleClick={this.cuteComp2}>Cute  </span>
+                <span onClick={this.cuteComp}>Cute {IsToggle ? '&#10843;' : '&#10842;'}  </span>
                 
                 <span onClick={this.cut1}>Cat</span>
                 <span onClick={this.cut2}>cute cat and dog</span>
