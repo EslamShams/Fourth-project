@@ -189,25 +189,25 @@ cut2=()=>{
         return(
              <div className="gallery">
                 <div className="component">
-                <span onClick={this.natureComp} onDoubleClick={this.natureComp2}>Nature &blacktriangledown;</span>
+                <span onClick={this.natureComp} onDoubleClick={this.natureComp2}>Nature &utrif; </span>
                 <span onClick={this.sky}>Sky</span>
                 <span onClick={this.darkRoad}>Dark Road</span>
                 
                
-                <span onClick={this.flowerComp} onDoubleClick={this.flowerComp2}>Flower &blacktriangledown;</span>
+                <span onClick={this.flowerComp} onDoubleClick={this.flowerComp2}>Flower &utrif; </span>
                 
                 <span onClick={this.flo1}>Zoom In Single Flower</span>
                 <span onClick={this.flo2}>Mixed Color Flowers</span>
                 
                 
-                <span onClick={this.coolComp} onDoubleClick={this.coolComp2}>Cool &blacktriangledown;</span>
+                <span onClick={this.coolComp} onDoubleClick={this.coolComp2}>Cool &utrif; </span>
                 
                 <span onClick={this.col1}>ColorFull Wall</span>
                 <span onClick={this.col2}>ColorFull Circle</span>
                 
                 
                
-                <span onClick={this.cuteComp} onDoubleClick={this.cuteComp2}>Cute &blacktriangledown;</span>
+                <span onClick={this.cuteComp} onDoubleClick={this.cuteComp2}>Cute &utrif; </span>
                 
                 <span onClick={this.cut1}>Cat</span>
                 <span onClick={this.cut2}>cute cat and dog</span>
