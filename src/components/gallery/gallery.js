@@ -22,6 +22,34 @@ class Gallery extends Component {
                 IsToggle4 : false
 
         }
+ Toggle1=()=>{
+        let {IsToggle1} = this.state.IsToggle1; 
+        this.setState({
+                IsToggle1 : !IsToggle1
+        })
+
+ } 
+ Toggle2=()=>{
+        let {IsToggle2} = this.state.IsToggle2; 
+        this.setState({
+                IsToggle2 : !IsToggle2
+        })
+
+ }
+ Toggle3=()=>{
+        let {IsToggle3} = this.state.IsToggle3; 
+        this.setState({
+                IsToggle3 : !IsToggle3
+        })
+
+ } 
+ Toggle4=()=>{
+        let {IsToggle4} = this.state.IsToggle4; 
+        this.setState({
+                IsToggle4 : !IsToggle4
+        })
+
+ }        
               
     
 natureComp = ()=>{
@@ -29,18 +57,13 @@ natureComp = ()=>{
          if(IsToggle1) {
                 mySpans[5].style.display ="none";
                 mySpans[6].style.display ="none";
-                let {IsToggle1} = this.state.IsToggle1; 
-                this.setState({
-                        IsToggle1 : !IsToggle1
-                })
+                this.IsToggle1();
+                
          }
          else{
                 mySpans[5].style.display ="block";
                 mySpans[6].style.display ="block";
-                let {IsToggle1} = this.state.IsToggle1; 
-                this.setState({
-                        IsToggle1 : !IsToggle1
-                })
+                this.IsToggle1();
          }
               
 
@@ -82,18 +105,13 @@ flowerComp = ()=>{
         if(IsToggle2) {
                mySpans[8].style.display ="none";
                mySpans[9].style.display ="none";
-               let {IsToggle2} = this.state.IsToggle2; 
-               this.setState({
-                IsToggle2 : !IsToggle2
-        })
+               this.Toggle2();
         }
         else{
                mySpans[8].style.display ="block";
                mySpans[9].style.display ="block";
-               let {IsToggle2} = this.state.IsToggle2; 
-               this.setState({
-                IsToggle2 : !IsToggle2
-        })
+               this.Toggle2();
+          
         }
             
         }      
@@ -130,18 +148,13 @@ coolComp = () =>{
         if(IsToggle3) {
                mySpans[11].style.display ="none";
                mySpans[12].style.display ="none";
-               let {IsToggle3} = this.state.IsToggle3; 
-               this.setState({
-                IsToggle3 : !IsToggle3
-        })
+               this.Toggle3(); 
+      
         }
         else{
                mySpans[11].style.display ="block";
                mySpans[12].style.display ="block";
-               let {IsToggle3} = this.state.IsToggle3; 
-               this.setState({
-                IsToggle3 : !IsToggle3
-        })
+               this.Toggle3();
         }
     
         }
@@ -178,18 +191,12 @@ cuteComp = () =>{
         if(IsToggle4) {
                mySpans[14].style.display ="none";
                mySpans[15].style.display ="none";
-               let {IsToggle4} = this.state.IsToggle4; 
-               this.setState({
-                IsToggle4 : !IsToggle4
-        })
+               this.Toggle4();
         }
         else{
                mySpans[14].style.display ="block";
                mySpans[15].style.display ="block";
-               let {IsToggle4} = this.state.IsToggle4; 
-               this.setState({
-                IsToggle4 : !IsToggle4
-        })
+               this.Toggle4();
         }  
     
         }      
