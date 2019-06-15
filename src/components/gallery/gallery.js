@@ -30,20 +30,18 @@ class Gallery extends Component {
     
 natureComp = ()=>{
         let {IsToggle} = this.state;
-         if(IsToggle) {
-                mySpans[5].style.display ="none";
-                mySpans[6].style.display ="none";
-                this.IsToggle();
-                
-         }
-         else{
-                mySpans[5].style.display ="block";
-                mySpans[6].style.display ="block";
-                this.IsToggle();
-         }
-              
-
-                
+        if(IsToggle) {
+               mySpans[5].style.display ="none";
+               mySpans[6].style.display ="none";
+               this.Toggle();
+        }
+        else{
+               mySpans[5].style.display ="block";
+               mySpans[6].style.display ="block";
+               this.Toggle();
+          
+        }
+                             
 }
 
 sky=()=>{
